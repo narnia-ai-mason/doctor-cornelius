@@ -1,0 +1,10 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Backend for Doctor Cornelius, the Trusted Archivist of Narnia Labs"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.125.0",
+    "uvicorn>=0.38.0",
+]
