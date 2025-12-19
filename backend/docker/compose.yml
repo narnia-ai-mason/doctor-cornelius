@@ -28,6 +28,9 @@ services:
       - "8000:8000"
     env_file:
       - ../.env
+    environment:
+      # Override for Docker networking - use service name instead of localhost
+      NEO4J_URI: bolt://neo4j:7687
     networks:
       - app-network
 

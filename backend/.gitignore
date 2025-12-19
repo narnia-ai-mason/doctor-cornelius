@@ -5,6 +5,7 @@ venv/
 # Claude Code
 .mcp.json
 .claude/
+CLAUDE.md
 
 # Environment variables (secrets)
 .env
